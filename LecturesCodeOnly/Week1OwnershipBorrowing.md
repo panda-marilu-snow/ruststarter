@@ -103,7 +103,7 @@ fn main(){
     reference_has_limited_life();
 
     // Rust Rules Around Mutation and References. borrow vs borrow_mut
-    println!("Get used to this Rules")
+    println!("Get used to this Rules");
     you_cannot_mutate_a_value_if_there_is_a_reference();
     you_can_have_multiple_immutable_references();
     only_one_mutable_reference_at_atime();
